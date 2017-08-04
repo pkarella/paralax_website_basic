@@ -1,31 +1,58 @@
 @keyframes slider {
   0% {
-    left: 0;
+    left: 0%;
   }
-  20%{
-    left: 0;
+  10%{
+    left: 0%;
   }
-  25%{
+  12%{
     left: -100%;
   }
-  45% {
+  22% {
     left: -100%;
   }
-  50%{
+  24%{
     left: -200%;
   }
-  70%{
+  34%{
     left: -200%;
   }
-  75%{
+  36%{
     left: -300%;
   }
-  95%{
+  46%{
     left: -300%;
   }
-  100%{
+  48%{
     left: -400%;
   }
+  58%{
+    left: -400%;
+  }
+  60%{
+    left: -300%;
+  }
+  70% {
+    left: -300%;
+  }
+  72%{
+    left: -200%;
+  }
+  82%{
+    left: -200%;
+  }
+  84%{
+    left: -100%;
+  }
+  94%{
+    left: -100%;
+  }
+  96%{
+    left: 0%;
+}
+100%{
+  left: 0%;
+}
 }
 #slider{
     overflow: hidden;
@@ -44,7 +71,7 @@
   left: 0;
   text-align: left;
   font-size: 0;
-  animation: 10s slider infinite;
+  animation: 20s slider infinite;
   }
 
 body,html{
